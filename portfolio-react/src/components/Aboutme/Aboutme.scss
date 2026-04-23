@@ -1,0 +1,39 @@
+.info-aboutme p {
+    margin-left: 100px;
+    font-size: 18px;
+    color: #a7a7a7;
+}
+
+.header-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.subtitle {
+    font-size: 28px;
+    font-weight: normal;
+    color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.subtitle::after {
+    content: "";
+    width: 100px;
+    height: 1px;
+    background-color: #e500ce;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
