@@ -1,7 +1,7 @@
 import './Header.scss';
-import logo from '../assets/logo.svg';
-import GitHub from '../assets/github.svg';
-import LinkedIn from '../assets/linkedin.svg';
+import logo from '../../assets/logo.svg';
+import GitHub from '../../assets/github.svg';
+import LinkedIn from '../../assets/linkedin.svg';
 
 function Header() {
     return (
