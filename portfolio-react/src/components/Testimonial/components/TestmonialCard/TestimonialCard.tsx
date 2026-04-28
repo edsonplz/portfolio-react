@@ -16,15 +16,13 @@ interface TestimonialCardProps {
 
 function TestimonialCard({ description, name, occupation, profileImage, linkedinUrl, highlight }: TestimonialCardProps) {
     return (
-        <div className="container-testimonials">
-            <div className= {highlight ? "fill-in-card-testimonial" : "outline-card-testimonial"}>
-                <p>{description}</p>
-                <div className="footer-card-testimonial">
-                    <a href={linkedinUrl} target="_blank"><img src={profileImage} alt={`Imagem depoimento ${name}`} width="40px" height="40px" /></a>
-                    <div className="info-personal-testimonial">
-                        <a href={linkedinUrl} target="_blank"><p className="name-testimonial">{name}</p></a>
-                        <p className="ocuppation-testimonial">{occupation}</p>
-                    </div>
+        <div className={highlight ? "fill-in-card-testimonial" : "outline-card-testimonial"}>
+            <p>{description}</p>
+            <div className="footer-card-testimonial">
+                <a href={linkedinUrl} target="_blank"><img src={profileImage} alt={`Imagem depoimento ${name}`} width="40px" height="40px" /></a>
+                <div className="info-personal-testimonial">
+                    <a href={linkedinUrl} target="_blank"><p className="name-testimonial">{name}</p></a>
+                    <p className="ocuppation-testimonial">{occupation}</p>
                 </div>
             </div>
         </div>
