@@ -1,0 +1,57 @@
+.card-project {
+    min-height: 600px;
+    height: fit-content;
+    background-color: #363636;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.info-card-project {
+    padding: 28px;
+}
+
+.info-card-project h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.info-card-project p {
+    color: #ccc;
+    font-size: 17px;
+}
+
+.legend-project {
+    padding: 20px 0px;
+}
+
+.legend-project p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.legend-project span {
+    font-weight: bold;
+    color: white;
+}
+
+.footer-project {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.url-project,
+.code-project {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.url-project a,
+.code-project a {
+    color: white;
+    font-size: 15px;
+}
