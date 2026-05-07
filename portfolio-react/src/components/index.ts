@@ -4,3 +4,5 @@ export { default as Aboutme } from './Aboutme/Aboutme';
 export { default as Tecnologies } from './Tecnologies/Tecnologies';
 export { default as Projects } from './Projects/Projects';
 export { default as Testimonial } from './Testimonial/Testimonial';
+export { default as Contact } from './Contact/Contact';
+export { default as Footer } from './Footer/Footer';
