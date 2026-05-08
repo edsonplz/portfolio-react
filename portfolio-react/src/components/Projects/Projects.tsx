@@ -65,9 +65,10 @@ function Projects() {
                     <h2 className="subtitle">Esses são os projetos que eu desenvolvi</h2>
                 </div>
                 <div className="info-projects">
-                    {projectsInfo.map((project) => {
+                    {projectsInfo.map((project, index) => {
                         return (
                             <ProjectCard
+                                key={index}
                                 title={project.title}
                                 description={project.description}
                                 stack={project.stack}

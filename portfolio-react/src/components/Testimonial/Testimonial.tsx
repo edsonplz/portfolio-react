@@ -36,9 +36,10 @@ function Testimonial() {
                     </div>
                 </div>
                 <div className="container-testimonials">
-                    {testimonialscardinfo.map((cardinfo) => {
+                    {testimonialscardinfo.map((cardinfo, index) => {
                         return (
                             <TestimonialCard
+                                key={index}
                                 description={cardinfo.description}
                                 name={cardinfo.name}
                                 occupation={cardinfo.occupation}
