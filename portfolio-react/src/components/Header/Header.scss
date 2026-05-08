@@ -43,3 +43,37 @@
     justify-content: center;
     gap: 10px;
 }
+
+@media screen and (max-width:1200px) {
+    .menu {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-open {
+        position: absolute;
+        display: block;
+        top: 90px;
+        right: 20px;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+        z-index: 2;
+    }
+
+    .mobile-menu-open ul {
+        flex-direction: column;
+    }
+
+    .mobile-menu-open ul li {
+        margin-bottom: 10px;
+    }
+
+    .mobile-menu-open a {
+        color: #fff;
+    }
+}

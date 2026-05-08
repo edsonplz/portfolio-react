@@ -37,3 +37,11 @@ p {
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1200px) {
+    .info-aboutme p {
+        margin: 30px;
+        font-size: 15px;
+        color: #a7a7a7;
+    }
+}

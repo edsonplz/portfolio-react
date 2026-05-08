@@ -39,3 +39,20 @@
 .profile-photo img {
     width: 335px;
 }
+
+@media screen and (max-width: 1200px) {
+    #apresentation {
+        margin: 20px 0;
+    }
+
+    .info-apresentation {
+        flex-direction: column;
+    }
+
+    .info-apresentation h1 {
+        font-size: 50px;
+        line-height: 42px;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+}
